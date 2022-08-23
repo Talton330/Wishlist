@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Wishlist</string>
+    <string name="ET_itemname">item name</string>
+    <string name="ET_price">Ex:5.99</string>
+    <string name="ET_URL">Example https//example.com</string>
+    <string name="B_submit">Submit</string>
+    <string name="Tv_item_name">Item name</string>
+    <string name="Tv_price">Price</string>
+    <string name="Tv_url">URL</string>
+    <string name="ET_priceExample">Ex: 5.99</string>
+</resources>

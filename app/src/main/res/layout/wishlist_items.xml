@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="128dp"
+        android:layout_height="57dp"
+        android:text="@string/Tv_item_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/priceTv"
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:text="@string/Tv_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/URLTv"
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:text="@string/Tv_url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceTv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
